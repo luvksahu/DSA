@@ -37,7 +37,7 @@ void createList()
     }
     createNode();
     head=nnode;
-    head->next=head;
+    // head->next=head;
     temp=head;
     while(counter<n)
     {
